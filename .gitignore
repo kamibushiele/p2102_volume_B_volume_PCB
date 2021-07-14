@@ -1,0 +1,7 @@
+*bak
+*.csv
+*.net
+*-rescue.lib
+*-cache.lib
+fp-info-cache
+sym-lib-table

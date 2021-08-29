@@ -1095,27 +1095,25 @@ Wire Wire Line
 	1300 7000 1050 7000
 Connection ~ 1050 7000
 $Comp
-L fues-mounting_hole:mounting_hole H201
+L Mechanical:MountingHole H201
 U 1 1 60FF17E1
 P 6550 5500
 F 0 "H201" H 6678 5556 60  0000 L CNN
 F 1 "mounting_hole" H 6678 5450 60  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 6678 5344 60  0000 L CNN
+F 2 "fues-mounting_hole:M3-drillHole_6mm_nosilk_nopad" H 6678 5344 60  0000 L CNN
 F 3 "" H 6550 5500 60  0000 C CNN
 	1    6550 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L fues-mounting_hole:mounting_hole H202
+L Mechanical:MountingHole H202
 U 1 1 60FF21F9
 P 6550 5800
 F 0 "H202" H 6678 5856 60  0000 L CNN
 F 1 "mounting_hole" H 6678 5750 60  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 6678 5644 60  0000 L CNN
+F 2 "fues-mounting_hole:M3-drillHole_6mm_nosilk_nopad" H 6678 5644 60  0000 L CNN
 F 3 "" H 6550 5800 60  0000 C CNN
 	1    6550 5800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6350 5550
-NoConn ~ 6350 5850
 $EndSCHEMATC

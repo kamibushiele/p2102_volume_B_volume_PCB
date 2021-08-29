@@ -5,3 +5,5 @@
 *-cache.lib
 fp-info-cache
 sym-lib-table
+factory
+**/*.xlsx

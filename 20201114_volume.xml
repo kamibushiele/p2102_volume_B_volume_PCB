@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>D:\Development\HW\KiCad_projects\20201114_volume\20201114_volume.sch</source>
-    <date>20/06/2021 19:20:08</date>
+    <date>01/08/2021 15:18:30</date>
     <tool>Eeschema (5.1.2)-2</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -17,20 +17,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="2" name="/Audio/" tstamps="/5FB95AA9/">
-      <title_block>
-        <title>p2102_volume</title>
-        <company>kamibushi electronics</company>
-        <rev/>
-        <date/>
-        <source>Audio.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="3" name="/display/" tstamps="/60D9BBB5/">
+    <sheet number="2" name="/display/" tstamps="/60D9BBB5/">
       <title_block>
         <title>p2102_volume</title>
         <company>kamibushi electronics</company>
@@ -43,45 +30,40 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
+    <sheet number="3" name="/Audio/" tstamps="/5FB95AA9/">
+      <title_block>
+        <title>p2102_volume</title>
+        <company>kamibushi electronics</company>
+        <rev/>
+        <date/>
+        <source>Audio.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
   </design>
   <components>
-    <comp ref="R102">
-      <value>R</value>
+    <comp ref="R103">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FAFBE6E</tstamp>
     </comp>
-    <comp ref="J103">
-      <value>AudioJack3</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="AudioJack3" description="Audio Jack, 3 Poles (Stereo / TRS)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FB51649</tstamp>
-    </comp>
-    <comp ref="R104">
+    <comp ref="R105">
       <value>100k_NC</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FB88379</tstamp>
     </comp>
-    <comp ref="J106">
-      <value>AudioJack3</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="AudioJack3" description="Audio Jack, 3 Poles (Stereo / TRS)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FBBE225</tstamp>
-    </comp>
-    <comp ref="J101">
-      <value>Jack-DC</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Jack-DC" description="DC Barrel Jack"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FBAF61D</tstamp>
-    </comp>
     <comp ref="D101">
       <value>D</value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D" description="Diode"/>
       <sheetpath names="/" tstamps="/"/>
@@ -103,15 +85,17 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FAF804F</tstamp>
     </comp>
-    <comp ref="R101">
+    <comp ref="R102">
       <value>10k_NC</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60CAC483</tstamp>
     </comp>
-    <comp ref="R103">
+    <comp ref="R104">
       <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -119,6 +103,7 @@
     </comp>
     <comp ref="Q101">
       <value>2N7002K</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
       <sheetpath names="/" tstamps="/"/>
@@ -134,6 +119,7 @@
     </comp>
     <comp ref="D102">
       <value>SB240LES</value>
+      <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <sheetpath names="/" tstamps="/"/>
@@ -141,20 +127,23 @@
     </comp>
     <comp ref="L101">
       <value>22u</value>
+      <footprint>Inductor_SMD:L_10.4x10.4_H4.8</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="L_Core_Ferrite_Small" description="Inductor with ferrite core, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60D5FBD5</tstamp>
     </comp>
-    <comp ref="R105">
-      <value>3.6k</value>
+    <comp ref="R106">
+      <value>3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60DAC784</tstamp>
     </comp>
-    <comp ref="R106">
-      <value>1.2k</value>
+    <comp ref="R107">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -230,98 +219,533 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>610F7CCF</tstamp>
     </comp>
-    <comp ref="SW101">
-      <value>SW_DPST</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_DPST" description="Double Pole Single Throw (DPST) Switch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6162B17A</tstamp>
-    </comp>
-    <comp ref="J105">
-      <value>BTN</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6165254E</tstamp>
-    </comp>
-    <comp ref="J104">
-      <value>ENC</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6166EF7F</tstamp>
-    </comp>
     <comp ref="J107">
       <value>SWD</value>
+      <footprint>Connector_PinSocket_1.27mm:PinSocket_1x05_P1.27mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector" part="Conn_01x05_Female" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61A71727</tstamp>
     </comp>
-    <comp ref="J108">
-      <value>LED</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61A9B2F8</tstamp>
-    </comp>
-    <comp ref="J102">
+    <comp ref="J103">
       <value>8P8C_Shielded</value>
-      <footprint>Connector_RJ:RJ45_Amphenol_RJHSE5380</footprint>
+      <footprint>fues-connect:7810-8P8C</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector" part="8P8C_Shielded" description="RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61, Shielded"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FBA9024</tstamp>
     </comp>
-    <comp ref="U202">
+    <comp ref="J106">
+      <value>ENC</value>
+      <footprint>fues-connect:JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B84322</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>POWER</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FC15F4</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>POWER_SW_DETECT</value>
+      <footprint>fues-connect:JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FE30A2</tstamp>
+    </comp>
+    <comp ref="Q102">
+      <value>2N7002K</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6172E8C5</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6175216D</tstamp>
+    </comp>
+    <comp ref="J108">
+      <value>LEDtoMCU</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x07_Odd_Even" description="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6188B120</tstamp>
+    </comp>
+    <comp ref="J109">
+      <value>MCUtoLED</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x07_Odd_Even" description="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E8E461</tstamp>
+    </comp>
+    <comp ref="J105">
+      <value>MCUtoAudio</value>
+      <footprint>fues-connect:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616E8593</tstamp>
+    </comp>
+    <comp ref="J104">
+      <value>AudiotoMCU</value>
+      <footprint>fues-connect:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616A5A0A</tstamp>
+    </comp>
+    <comp ref="J110">
+      <value>Mute</value>
+      <footprint>fues-connect:JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F01AC4</tstamp>
+    </comp>
+    <comp ref="J111">
+      <value>Mute</value>
+      <footprint>fues-connect:JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F1D8EA</tstamp>
+    </comp>
+    <comp ref="H101">
+      <value>mounting_hole</value>
+      <footprint>fues-mounting_hole:M3-drillHole_6mm_nosilk_nopad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6132AF79</tstamp>
+    </comp>
+    <comp ref="H102">
+      <value>mounting_hole</value>
+      <footprint>fues-mounting_hole:M3-drillHole_6mm_nosilk_nopad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6132AF7F</tstamp>
+    </comp>
+    <comp ref="H103">
+      <value>mounting_hole</value>
+      <footprint>fues-mounting_hole:M3-drillHole_6mm_nosilk_nopad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6132AF85</tstamp>
+    </comp>
+    <comp ref="H104">
+      <value>mounting_hole</value>
+      <footprint>fues-mounting_hole:M3-drillHole_6mm_nosilk_nopad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6132AF8B</tstamp>
+    </comp>
+    <comp ref="C109">
+      <value>NC 47u</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FDCD02</tstamp>
+    </comp>
+    <comp ref="TP101">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611E671B</tstamp>
+    </comp>
+    <comp ref="LED201">
+      <value>OSL10564-IYG</value>
+      <footprint>fues-display:OSL10564</footprint>
+      <libsource lib="fues-display" part="OSL10564-X" description="X=I -&gt;AnodeCommon,X=L -&gt; Cathode Common"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DA82B9</tstamp>
+    </comp>
+    <comp ref="LED202">
+      <value>OSL10564-IYG</value>
+      <footprint>fues-display:OSL10564</footprint>
+      <libsource lib="fues-display" part="OSL10564-X" description="X=I -&gt;AnodeCommon,X=L -&gt; Cathode Common"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DA82CD</tstamp>
+    </comp>
+    <comp ref="LED203">
+      <value>OSL10564-IYG</value>
+      <footprint>fues-display:OSL10564</footprint>
+      <libsource lib="fues-display" part="OSL10564-X" description="X=I -&gt;AnodeCommon,X=L -&gt; Cathode Common"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DA82D7</tstamp>
+    </comp>
+    <comp ref="R215">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DA82E1</tstamp>
+    </comp>
+    <comp ref="R216">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DA82EF</tstamp>
+    </comp>
+    <comp ref="R217">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DA82F5</tstamp>
+    </comp>
+    <comp ref="R218">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DA82FB</tstamp>
+    </comp>
+    <comp ref="R219">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DA8301</tstamp>
+    </comp>
+    <comp ref="R220">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DA8307</tstamp>
+    </comp>
+    <comp ref="R221">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DA830D</tstamp>
+    </comp>
+    <comp ref="R222">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DA8313</tstamp>
+    </comp>
+    <comp ref="Q204">
+      <value>IRLML2246TRPbF</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60C54AFA</tstamp>
+    </comp>
+    <comp ref="R204">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60C5C55D</tstamp>
+    </comp>
+    <comp ref="Q201">
+      <value>2N7002K</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60C5F9DE</tstamp>
+    </comp>
+    <comp ref="Q202">
+      <value>2N7002K</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60C7E0D7</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60D39A14</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60D3F564</tstamp>
+    </comp>
+    <comp ref="Q208">
+      <value>IRLML2246TRPbF</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60D4C802</tstamp>
+    </comp>
+    <comp ref="R208">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60D4C80C</tstamp>
+    </comp>
+    <comp ref="Q207">
+      <value>2N7002K</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60D4C818</tstamp>
+    </comp>
+    <comp ref="R207">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60D4C846</tstamp>
+    </comp>
+    <comp ref="Q205">
+      <value>2N7002K</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60D8E414</tstamp>
+    </comp>
+    <comp ref="R205">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60D8E42A</tstamp>
+    </comp>
+    <comp ref="Q209">
+      <value>2N7002K</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60D939DB</tstamp>
+    </comp>
+    <comp ref="R209">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60D939F1</tstamp>
+    </comp>
+    <comp ref="Q213">
+      <value>2N7002K</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60D93A0B</tstamp>
+    </comp>
+    <comp ref="R213">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60D93A21</tstamp>
+    </comp>
+    <comp ref="Q203">
+      <value>2N7002K</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DA1928</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DA193E</tstamp>
+    </comp>
+    <comp ref="Q206">
+      <value>2N7002K</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DA1958</tstamp>
+    </comp>
+    <comp ref="R206">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DA196E</tstamp>
+    </comp>
+    <comp ref="Q210">
+      <value>2N7002K</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DA1988</tstamp>
+    </comp>
+    <comp ref="R210">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DA199E</tstamp>
+    </comp>
+    <comp ref="Q214">
+      <value>2N7002K</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DA19B8</tstamp>
+    </comp>
+    <comp ref="R214">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DA19CE</tstamp>
+    </comp>
+    <comp ref="Q212">
+      <value>IRLML2246TRPbF</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DB5274</tstamp>
+    </comp>
+    <comp ref="R212">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DB527E</tstamp>
+    </comp>
+    <comp ref="Q211">
+      <value>2N7002K</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DB528A</tstamp>
+    </comp>
+    <comp ref="R211">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60DB52B8</tstamp>
+    </comp>
+    <comp ref="H201">
+      <value>mounting_hole</value>
+      <footprint>fues-mounting_hole:M3-drillHole_6mm_nosilk_nopad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60FF17E1</tstamp>
+    </comp>
+    <comp ref="H202">
+      <value>mounting_hole</value>
+      <footprint>fues-mounting_hole:M3-drillHole_6mm_nosilk_nopad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
+      <tstamp>60FF21F9</tstamp>
+    </comp>
+    <comp ref="U302">
       <value>LM1972</value>
+      <footprint>Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
       <libsource lib="fues-IC_and_module" part="LM1972" description="Pot 2-Channel 78dB Audio Attenuator with Mute"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>5FBA2234</tstamp>
     </comp>
-    <comp ref="R209">
+    <comp ref="R308">
       <value>10</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>5FBA22B5</tstamp>
     </comp>
-    <comp ref="C201">
+    <comp ref="C304">
       <value>1u</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W6.0mm_P5.00mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>5FBC10ED</tstamp>
     </comp>
-    <comp ref="Q212">
+    <comp ref="Q309">
       <value>TTC004B</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>60BB5297</tstamp>
     </comp>
-    <comp ref="R211">
-      <value>200</value>
+    <comp ref="R312">
+      <value>1.2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>60BC68BD</tstamp>
     </comp>
-    <comp ref="R215">
+    <comp ref="R316">
       <value>5</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>60BD3AD4</tstamp>
     </comp>
-    <comp ref="Q213">
+    <comp ref="Q310">
       <value>TTA004B</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>60BD9F2E</tstamp>
     </comp>
-    <comp ref="C204">
+    <comp ref="C303">
       <value>0.1u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -329,252 +753,134 @@
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>60CA97C9</tstamp>
     </comp>
-    <comp ref="R229">
+    <comp ref="R330">
       <value>10</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>60BDD618</tstamp>
     </comp>
-    <comp ref="U203">
+    <comp ref="U303">
       <value>OPAMP</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
       <libsource lib="fues-IC_and_module" part="OPAMP" description="2ch OPamp"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>60F6D08D</tstamp>
     </comp>
-    <comp ref="Q209">
+    <comp ref="Q306">
       <value>TTA004B</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>610A9134</tstamp>
     </comp>
-    <comp ref="Q208">
+    <comp ref="Q305">
       <value>TTC004B</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>610A96D2</tstamp>
     </comp>
-    <comp ref="R216">
+    <comp ref="R317">
       <value>5</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>610AA273</tstamp>
     </comp>
-    <comp ref="R212">
-      <value>200</value>
+    <comp ref="R313">
+      <value>1.2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>610B26D0</tstamp>
     </comp>
-    <comp ref="C202">
+    <comp ref="C305">
       <value>1u</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W6.0mm_P5.00mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>610B34E3</tstamp>
     </comp>
-    <comp ref="R210">
+    <comp ref="R310">
       <value>10</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>610B3E06</tstamp>
     </comp>
-    <comp ref="Q214">
+    <comp ref="Q311">
       <value>TTC004B</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>610B3E10</tstamp>
     </comp>
-    <comp ref="R213">
-      <value>200</value>
+    <comp ref="R314">
+      <value>1.2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>610B3E1D</tstamp>
     </comp>
-    <comp ref="R217">
+    <comp ref="R318">
       <value>5</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>610B3E2B</tstamp>
     </comp>
-    <comp ref="Q215">
+    <comp ref="Q312">
       <value>TTA004B</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>610B3E36</tstamp>
     </comp>
-    <comp ref="Q211">
+    <comp ref="Q308">
       <value>TTA004B</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>610B3E8B</tstamp>
     </comp>
-    <comp ref="Q210">
+    <comp ref="Q307">
       <value>TTC004B</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>610B3E95</tstamp>
     </comp>
-    <comp ref="R218">
+    <comp ref="R319">
       <value>5</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>610B3E9F</tstamp>
     </comp>
-    <comp ref="R214">
-      <value>200</value>
+    <comp ref="R315">
+      <value>1.2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>610B3EAB</tstamp>
     </comp>
-    <comp ref="Q204">
-      <value>TTC004B</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>60ECFCBD</tstamp>
-    </comp>
-    <comp ref="R203">
-      <value>200</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>60ECFCCA</tstamp>
-    </comp>
-    <comp ref="R205">
-      <value>5</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>60ECFCD8</tstamp>
-    </comp>
-    <comp ref="Q205">
-      <value>TTA004B</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>60ECFCE3</tstamp>
-    </comp>
-    <comp ref="Q203">
-      <value>TTA004B</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>60ECFD2D</tstamp>
-    </comp>
-    <comp ref="Q202">
-      <value>TTC004B</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>60ECFD37</tstamp>
-    </comp>
-    <comp ref="R206">
-      <value>5</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>60ECFD41</tstamp>
-    </comp>
-    <comp ref="R204">
-      <value>200</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>60ECFD4D</tstamp>
-    </comp>
-    <comp ref="Q206">
-      <value>TTC004B</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>60F1CDAF</tstamp>
-    </comp>
-    <comp ref="Q207">
-      <value>TTA004B</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>60F1D4FA</tstamp>
-    </comp>
-    <comp ref="C210">
-      <value>1u</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>60F49E8B</tstamp>
-    </comp>
-    <comp ref="D201">
-      <value>4.7V</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D_Zener_Small" description="Zener diode, small symbol"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>60F62115</tstamp>
-    </comp>
-    <comp ref="R207">
-      <value>300</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>60F729F6</tstamp>
-    </comp>
-    <comp ref="C211">
-      <value>1u</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>60FD5A42</tstamp>
-    </comp>
-    <comp ref="D202">
-      <value>4.7V</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D_Zener_Small" description="Zener diode, small symbol"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>60FD5A4E</tstamp>
-    </comp>
-    <comp ref="R208">
-      <value>300</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>60FD5A5A</tstamp>
-    </comp>
-    <comp ref="R201">
-      <value>10k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>61051B75</tstamp>
-    </comp>
-    <comp ref="R202">
-      <value>10k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>6105219B</tstamp>
-    </comp>
-    <comp ref="C203">
-      <value>0.1u</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>610A34C5</tstamp>
-    </comp>
-    <comp ref="C207">
+    <comp ref="C307">
       <value>0.1u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -582,7 +888,7 @@
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>610CE9D3</tstamp>
     </comp>
-    <comp ref="C209">
+    <comp ref="C309">
       <value>0.1u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -590,7 +896,7 @@
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>610CF029</tstamp>
     </comp>
-    <comp ref="C208">
+    <comp ref="C308">
       <value>0.1u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -598,103 +904,92 @@
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>610CF3BE</tstamp>
     </comp>
-    <comp ref="U205">
+    <comp ref="U305">
       <value>TLP591B</value>
       <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
       <libsource lib="fues-IC_and_module" part="TLP591B" description="Photo coupler"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>60DC2AB0</tstamp>
     </comp>
-    <comp ref="Q216">
+    <comp ref="Q313">
       <value>[mu]PA2753GR</value>
+      <footprint>Package_SO:SOP-8_3.76x4.96mm_P1.27mm</footprint>
       <libsource lib="fues-device" part="[mu]PA2753GR" description="Dual N-Channel MOS FET"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>60DD37B6</tstamp>
     </comp>
-    <comp ref="Q217">
+    <comp ref="Q314">
       <value>[mu]PA2753GR</value>
+      <footprint>Package_SO:SOP-8_3.76x4.96mm_P1.27mm</footprint>
       <libsource lib="fues-device" part="[mu]PA2753GR" description="Dual N-Channel MOS FET"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>60DD4A74</tstamp>
     </comp>
-    <comp ref="R227">
+    <comp ref="R328">
       <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>60E61821</tstamp>
     </comp>
-    <comp ref="R220">
-      <value>30</value>
+    <comp ref="R321">
+      <value>500</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>60FAB5B7</tstamp>
     </comp>
-    <comp ref="R223">
-      <value>30</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>61032709</tstamp>
-    </comp>
-    <comp ref="R224">
-      <value>30</value>
+    <comp ref="R325">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>61044140</tstamp>
     </comp>
-    <comp ref="R219">
-      <value>30</value>
+    <comp ref="R320">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>60F26CDD</tstamp>
     </comp>
-    <comp ref="R230">
+    <comp ref="R331">
       <value>10</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>61342EA4</tstamp>
     </comp>
-    <comp ref="R228">
+    <comp ref="R329">
       <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>61342EE4</tstamp>
     </comp>
-    <comp ref="C212">
+    <comp ref="C310">
       <value>470u</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>61386A4D</tstamp>
     </comp>
-    <comp ref="C213">
+    <comp ref="C311">
       <value>470u</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>613C61BA</tstamp>
     </comp>
-    <comp ref="C205">
-      <value>10u</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>61590F15</tstamp>
-    </comp>
-    <comp ref="C206">
-      <value>10u</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>615A57F5</tstamp>
-    </comp>
-    <comp ref="U204">
+    <comp ref="U304">
       <value>TLP4227G</value>
       <footprint>Package_DIP:DIP-4_W7.62mm</footprint>
       <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&amp;prodName=TLP222A</datasheet>
@@ -702,49 +997,46 @@
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>6167FAA1</tstamp>
     </comp>
-    <comp ref="Q201">
-      <value>2N7002K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>6182C2AB</tstamp>
-    </comp>
-    <comp ref="U207">
+    <comp ref="U307">
       <value>TLP591B</value>
       <footprint>Package_DIP:DIP-5-6_W7.62mm</footprint>
       <libsource lib="fues-IC_and_module" part="TLP591B" description="Photo coupler"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>61A20FAB</tstamp>
     </comp>
-    <comp ref="R222">
-      <value>30</value>
+    <comp ref="R323">
+      <value>500</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>61A20FBA</tstamp>
     </comp>
-    <comp ref="R225">
-      <value>30</value>
+    <comp ref="R326">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>61A20FC6</tstamp>
     </comp>
-    <comp ref="R226">
-      <value>30</value>
+    <comp ref="R327">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>61A20FD1</tstamp>
     </comp>
-    <comp ref="R221">
-      <value>30</value>
+    <comp ref="R322">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>61A20FE2</tstamp>
     </comp>
-    <comp ref="U206">
+    <comp ref="U306">
       <value>TLP4227G</value>
       <footprint>Package_DIP:DIP-4_W7.62mm</footprint>
       <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&amp;prodName=TLP222A</datasheet>
@@ -752,281 +1044,137 @@
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
       <tstamp>61A20FEC</tstamp>
     </comp>
-    <comp ref="U201">
-      <value>OPAMP</value>
-      <libsource lib="fues-IC_and_module" part="OPAMP" description="2ch OPamp"/>
+    <comp ref="C313">
+      <value>NC</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
-      <tstamp>6142BA29</tstamp>
-    </comp>
-    <comp ref="LED301">
-      <value>OSL10564-IYG</value>
-      <libsource lib="fues-display" part="OSL10564-X" description="X=I -&gt;AnodeCommon,X=L -&gt; Cathode Common"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DA82B9</tstamp>
-    </comp>
-    <comp ref="LED302">
-      <value>OSL10564-IYG</value>
-      <libsource lib="fues-display" part="OSL10564-X" description="X=I -&gt;AnodeCommon,X=L -&gt; Cathode Common"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DA82CD</tstamp>
-    </comp>
-    <comp ref="LED303">
-      <value>OSL10564-IYG</value>
-      <libsource lib="fues-display" part="OSL10564-X" description="X=I -&gt;AnodeCommon,X=L -&gt; Cathode Common"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DA82D7</tstamp>
-    </comp>
-    <comp ref="R315">
-      <value>220</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DA82E1</tstamp>
-    </comp>
-    <comp ref="R316">
-      <value>220</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DA82EF</tstamp>
-    </comp>
-    <comp ref="R317">
-      <value>220</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DA82F5</tstamp>
-    </comp>
-    <comp ref="R318">
-      <value>220</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DA82FB</tstamp>
-    </comp>
-    <comp ref="R319">
-      <value>220</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DA8301</tstamp>
-    </comp>
-    <comp ref="R320">
-      <value>220</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DA8307</tstamp>
-    </comp>
-    <comp ref="R321">
-      <value>220</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DA830D</tstamp>
-    </comp>
-    <comp ref="R322">
-      <value>220</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DA8313</tstamp>
-    </comp>
-    <comp ref="Q304">
-      <value>IRLML2246TRPbF</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60C54AFA</tstamp>
-    </comp>
-    <comp ref="R304">
-      <value>10k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60C5C55D</tstamp>
-    </comp>
-    <comp ref="Q301">
-      <value>2N7002K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60C5F9DE</tstamp>
-    </comp>
-    <comp ref="Q302">
-      <value>2N7002K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60C7E0D7</tstamp>
-    </comp>
-    <comp ref="R302">
-      <value>100k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60D39A14</tstamp>
-    </comp>
-    <comp ref="R301">
-      <value>100k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60D3F564</tstamp>
-    </comp>
-    <comp ref="Q308">
-      <value>IRLML2246TRPbF</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60D4C802</tstamp>
-    </comp>
-    <comp ref="R308">
-      <value>10k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60D4C80C</tstamp>
-    </comp>
-    <comp ref="Q307">
-      <value>2N7002K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60D4C818</tstamp>
-    </comp>
-    <comp ref="R307">
-      <value>100k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60D4C846</tstamp>
-    </comp>
-    <comp ref="Q305">
-      <value>2N7002K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60D8E414</tstamp>
-    </comp>
-    <comp ref="R305">
-      <value>100k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60D8E42A</tstamp>
-    </comp>
-    <comp ref="Q309">
-      <value>2N7002K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60D939DB</tstamp>
-    </comp>
-    <comp ref="R309">
-      <value>100k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60D939F1</tstamp>
-    </comp>
-    <comp ref="Q313">
-      <value>2N7002K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60D93A0B</tstamp>
-    </comp>
-    <comp ref="R313">
-      <value>100k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60D93A21</tstamp>
-    </comp>
-    <comp ref="Q303">
-      <value>2N7002K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DA1928</tstamp>
-    </comp>
-    <comp ref="R303">
-      <value>100k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DA193E</tstamp>
-    </comp>
-    <comp ref="Q306">
-      <value>2N7002K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DA1958</tstamp>
-    </comp>
-    <comp ref="R306">
-      <value>100k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DA196E</tstamp>
-    </comp>
-    <comp ref="Q310">
-      <value>2N7002K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DA1988</tstamp>
-    </comp>
-    <comp ref="R310">
-      <value>100k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DA199E</tstamp>
-    </comp>
-    <comp ref="Q314">
-      <value>2N7002K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DA19B8</tstamp>
-    </comp>
-    <comp ref="R314">
-      <value>100k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DA19CE</tstamp>
-    </comp>
-    <comp ref="Q312">
-      <value>IRLML2246TRPbF</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DB5274</tstamp>
-    </comp>
-    <comp ref="R312">
-      <value>10k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DB527E</tstamp>
-    </comp>
-    <comp ref="Q311">
-      <value>2N7002K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DB528A</tstamp>
+      <tstamp>610A4AB9</tstamp>
     </comp>
     <comp ref="R311">
-      <value>100k</value>
+      <value>0</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/display/" tstamps="/60D9BBB5/"/>
-      <tstamp>60DB52B8</tstamp>
+      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
+      <tstamp>610C9F7A</tstamp>
+    </comp>
+    <comp ref="C312">
+      <value>NC</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
+      <tstamp>61117117</tstamp>
+    </comp>
+    <comp ref="R309">
+      <value>0</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
+      <tstamp>61117125</tstamp>
+    </comp>
+    <comp ref="J301">
+      <value>POWER</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
+      <tstamp>6178C527</tstamp>
+    </comp>
+    <comp ref="J303">
+      <value>IN</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
+      <tstamp>61493725</tstamp>
+    </comp>
+    <comp ref="J302">
+      <value>IN</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
+      <tstamp>614536C1</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>470u</value>
+      <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
+      <tstamp>60EFCA78</tstamp>
+    </comp>
+    <comp ref="R302">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
+      <tstamp>6105219B</tstamp>
+    </comp>
+    <comp ref="R301">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
+      <tstamp>61051B75</tstamp>
+    </comp>
+    <comp ref="H301">
+      <value>mounting_hole</value>
+      <footprint>fues-mounting_hole:M3-drillHole_6mm_nosilk_nopad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
+      <tstamp>611F183B</tstamp>
+    </comp>
+    <comp ref="H302">
+      <value>mounting_hole</value>
+      <footprint>fues-mounting_hole:M3-drillHole_6mm_nosilk_nopad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
+      <tstamp>611F1841</tstamp>
+    </comp>
+    <comp ref="H303">
+      <value>mounting_hole</value>
+      <footprint>fues-mounting_hole:M3-drillHole_6mm_nosilk_nopad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
+      <tstamp>61211C73</tstamp>
+    </comp>
+    <comp ref="H304">
+      <value>mounting_hole</value>
+      <footprint>fues-mounting_hole:M3-drillHole_6mm_nosilk_nopad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
+      <tstamp>61211C7D</tstamp>
+    </comp>
+    <comp ref="R324">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
+      <tstamp>61032709</tstamp>
+    </comp>
+    <comp ref="C306">
+      <value>NC</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
+      <tstamp>610604A7</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>NC</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Audio/" tstamps="/5FB95AA9/"/>
+      <tstamp>61081E64</tstamp>
     </comp>
   </components>
   <libparts>
@@ -1070,40 +1218,6 @@
         <pin num="7" name="~" type="passive"/>
         <pin num="8" name="~" type="passive"/>
         <pin num="SH" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector" part="AudioJack3">
-      <description>Audio Jack, 3 Poles (Stereo / TRS)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Jack*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">AudioJack3</field>
-      </fields>
-      <pins>
-        <pin num="R" name="~" type="passive"/>
-        <pin num="S" name="~" type="passive"/>
-        <pin num="T" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector" part="Barrel_Jack">
-      <aliases>
-        <alias>Jack-DC</alias>
-      </aliases>
-      <description>DC Barrel Jack</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>BarrelJack*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Barrel_Jack</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="Conn_01x02_Female">
@@ -1172,6 +1286,67 @@
         <pin num="5" name="Pin_5" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x07_Odd_Even">
+      <description>Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x07_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="C">
       <description>Unpolarized capacitor</description>
       <docs>~</docs>
@@ -1181,6 +1356,21 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -1247,24 +1437,6 @@
       <fields>
         <field name="Reference">D</field>
         <field name="Value">D_Schottky</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="D_Zener_Small">
-      <description>Zener diode, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_Zener_Small</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
@@ -1433,6 +1605,17 @@
         <pin num="32" name="VSSA" type="power_in"/>
       </pins>
     </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
     <libpart lib="Relay_SolidState" part="TLP222A">
       <description>MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, DIP4</description>
       <docs>https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&amp;prodName=TLP222A</docs>
@@ -1449,20 +1632,6 @@
         <pin num="2" name="~" type="passive"/>
         <pin num="3" name="~" type="passive"/>
         <pin num="4" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Switch" part="SW_DPST">
-      <description>Double Pole Single Throw (DPST) Switch</description>
-      <docs>~</docs>
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">SW_DPST</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-        <pin num="4" name="4" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="fues-IC_and_module" part="LM1972">
@@ -1601,6 +1770,9 @@
     <library logical="Connector">
       <uri>D:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
     </library>
+    <library logical="Connector_Generic">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
     <library logical="Device">
       <uri>D:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
     </library>
@@ -1610,11 +1782,11 @@
     <library logical="MCU_ST_STM32F0">
       <uri>D:\Program Files\KiCad\share\kicad\library/MCU_ST_STM32F0.lib</uri>
     </library>
+    <library logical="Mechanical">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
     <library logical="Relay_SolidState">
       <uri>D:\Program Files\KiCad\share\kicad\library/Relay_SolidState.lib</uri>
-    </library>
-    <library logical="Switch">
-      <uri>D:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
     </library>
     <library logical="fues-IC_and_module">
       <uri>D:\Development\HW\KiCad_projects\__KiCad_library_git\library/fues-IC_and_module.lib</uri>
@@ -1627,673 +1799,703 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="VCC">
-      <node ref="U201" pin="8"/>
-      <node ref="Q206" pin="2"/>
-      <node ref="R201" pin="1"/>
-      <node ref="C102" pin="1"/>
-      <node ref="C101" pin="1"/>
-      <node ref="SW101" pin="1"/>
-      <node ref="R207" pin="1"/>
-      <node ref="Q204" pin="2"/>
-      <node ref="R203" pin="1"/>
-      <node ref="U102" pin="4"/>
-      <node ref="U102" pin="5"/>
-      <node ref="C205" pin="1"/>
+    <net code="1" name="Net-(J103-Pad5)">
+      <node ref="J103" pin="5"/>
     </net>
-    <net code="2" name="Net-(U102-Pad1)">
-      <node ref="U102" pin="1"/>
+    <net code="2" name="Net-(J103-Pad6)">
+      <node ref="J103" pin="6"/>
     </net>
-    <net code="3" name="Net-(C103-Pad2)">
-      <node ref="R106" pin="1"/>
-      <node ref="C103" pin="2"/>
-      <node ref="U102" pin="3"/>
-      <node ref="R105" pin="2"/>
+    <net code="3" name="Net-(D101-Pad2)">
+      <node ref="D101" pin="2"/>
+      <node ref="U101" pin="2"/>
+      <node ref="J103" pin="8"/>
     </net>
-    <net code="4" name="+5V">
-      <node ref="Q304" pin="2"/>
-      <node ref="R304" pin="2"/>
-      <node ref="J102" pin="1"/>
-      <node ref="U103" pin="2"/>
-      <node ref="C106" pin="1"/>
-      <node ref="R101" pin="1"/>
-      <node ref="Q312" pin="2"/>
-      <node ref="R221" pin="2"/>
-      <node ref="R312" pin="2"/>
-      <node ref="R220" pin="2"/>
-      <node ref="R219" pin="2"/>
-      <node ref="Q308" pin="2"/>
-      <node ref="R308" pin="2"/>
-      <node ref="R222" pin="2"/>
-      <node ref="C105" pin="1"/>
-      <node ref="C104" pin="1"/>
-      <node ref="L101" pin="2"/>
-      <node ref="R105" pin="1"/>
-      <node ref="C103" pin="1"/>
+    <net code="4" name="Net-(J103-PadSH)">
+      <node ref="J103" pin="SH"/>
     </net>
-    <net code="5" name="/SEG_LED_A_3">
-      <node ref="U104" pin="18"/>
-      <node ref="R301" pin="2"/>
-      <node ref="Q301" pin="1"/>
+    <net code="5" name="Net-(J103-Pad4)">
+      <node ref="J103" pin="4"/>
     </net>
-    <net code="6" name="/SEG_LED_K_E">
-      <node ref="R303" pin="2"/>
-      <node ref="Q303" pin="1"/>
-      <node ref="U104" pin="10"/>
-    </net>
-    <net code="7" name="/SEG_LED_K_F">
-      <node ref="U104" pin="11"/>
-      <node ref="R306" pin="2"/>
-      <node ref="Q306" pin="1"/>
-    </net>
-    <net code="8" name="/SEG_LED_K_B">
-      <node ref="R305" pin="2"/>
-      <node ref="Q305" pin="1"/>
-      <node ref="U104" pin="7"/>
-    </net>
-    <net code="9" name="/SEG_LED_K_G">
-      <node ref="U104" pin="12"/>
-      <node ref="R310" pin="2"/>
-      <node ref="Q310" pin="1"/>
-    </net>
-    <net code="10" name="/SEG_LED_K_DP">
-      <node ref="U104" pin="13"/>
-      <node ref="R314" pin="2"/>
-      <node ref="Q314" pin="1"/>
-    </net>
-    <net code="11" name="/SEG_LED_K_C">
-      <node ref="U104" pin="8"/>
-      <node ref="R309" pin="2"/>
-      <node ref="Q309" pin="1"/>
-    </net>
-    <net code="12" name="/SEG_LED_K_D">
-      <node ref="Q313" pin="1"/>
-      <node ref="U104" pin="9"/>
-      <node ref="R313" pin="2"/>
-    </net>
-    <net code="13" name="/SEG_LED_K_A">
-      <node ref="R302" pin="2"/>
-      <node ref="Q302" pin="1"/>
-      <node ref="U104" pin="6"/>
-    </net>
-    <net code="14" name="/SEG_LED_A_2">
-      <node ref="U104" pin="15"/>
-      <node ref="Q307" pin="1"/>
-      <node ref="R307" pin="2"/>
-    </net>
-    <net code="15" name="/SEG_LED_A_1">
-      <node ref="R311" pin="2"/>
-      <node ref="U104" pin="14"/>
-      <node ref="Q311" pin="1"/>
-    </net>
-    <net code="16" name="GND">
-      <node ref="C108" pin="2"/>
-      <node ref="Q313" pin="2"/>
-      <node ref="R301" pin="1"/>
-      <node ref="Q101" pin="2"/>
-      <node ref="R305" pin="1"/>
-      <node ref="R208" pin="1"/>
-      <node ref="R313" pin="1"/>
-      <node ref="Q307" pin="2"/>
-      <node ref="R202" pin="2"/>
-      <node ref="C206" pin="2"/>
-      <node ref="R204" pin="2"/>
-      <node ref="Q207" pin="2"/>
-      <node ref="U102" pin="2"/>
-      <node ref="Q205" pin="2"/>
-      <node ref="Q309" pin="2"/>
-      <node ref="J107" pin="1"/>
-      <node ref="R106" pin="2"/>
-      <node ref="U202" pin="8"/>
-      <node ref="R302" pin="1"/>
-      <node ref="C203" pin="2"/>
-      <node ref="Q301" pin="2"/>
-      <node ref="Q310" pin="2"/>
-      <node ref="C105" pin="2"/>
-      <node ref="R310" pin="1"/>
-      <node ref="C104" pin="2"/>
-      <node ref="Q306" pin="2"/>
-      <node ref="R306" pin="1"/>
-      <node ref="R309" pin="1"/>
-      <node ref="C102" pin="2"/>
-      <node ref="Q303" pin="2"/>
-      <node ref="Q311" pin="2"/>
-      <node ref="R303" pin="1"/>
-      <node ref="Q201" pin="2"/>
-      <node ref="Q305" pin="2"/>
-      <node ref="R307" pin="1"/>
-      <node ref="Q302" pin="2"/>
-      <node ref="R314" pin="1"/>
-      <node ref="U201" pin="4"/>
-      <node ref="R311" pin="1"/>
-      <node ref="C101" pin="2"/>
-      <node ref="Q314" pin="2"/>
-      <node ref="J101" pin="2"/>
-      <node ref="U104" pin="32"/>
-      <node ref="J105" pin="1"/>
-      <node ref="J104" pin="1"/>
-      <node ref="R103" pin="1"/>
-      <node ref="D102" pin="2"/>
-      <node ref="U101" pin="3"/>
-      <node ref="U104" pin="16"/>
-      <node ref="U103" pin="3"/>
-      <node ref="SW101" pin="4"/>
-      <node ref="J108" pin="1"/>
-      <node ref="C106" pin="2"/>
-      <node ref="C107" pin="2"/>
-    </net>
-    <net code="17" name="+3V3">
-      <node ref="C107" pin="1"/>
-      <node ref="R104" pin="2"/>
-      <node ref="J107" pin="2"/>
-      <node ref="U103" pin="1"/>
-      <node ref="C108" pin="1"/>
-      <node ref="U104" pin="5"/>
-      <node ref="U104" pin="17"/>
-      <node ref="U104" pin="1"/>
-    </net>
-    <net code="18" name="Net-(J102-Pad2)">
-      <node ref="R101" pin="2"/>
-      <node ref="Q101" pin="3"/>
+    <net code="6" name="/power_sw">
       <node ref="J102" pin="2"/>
+      <node ref="U104" pin="21"/>
     </net>
-    <net code="19" name="Net-(D102-Pad1)">
-      <node ref="L101" pin="1"/>
-      <node ref="D102" pin="1"/>
-      <node ref="U102" pin="6"/>
+    <net code="7" name="/ENC_A">
+      <node ref="U104" pin="2"/>
+      <node ref="J106" pin="3"/>
     </net>
-    <net code="20" name="/NRST">
-      <node ref="J107" pin="3"/>
+    <net code="8" name="/BTN_2">
+      <node ref="J106" pin="5"/>
+      <node ref="U104" pin="30"/>
+    </net>
+    <net code="9" name="/NRST">
       <node ref="U104" pin="4"/>
+      <node ref="J107" pin="3"/>
     </net>
-    <net code="21" name="/SWCLK">
+    <net code="10" name="/BTN_1">
+      <node ref="J106" pin="6"/>
+      <node ref="U104" pin="29"/>
+    </net>
+    <net code="11" name="/SWCLK">
       <node ref="U104" pin="24"/>
       <node ref="J107" pin="4"/>
     </net>
-    <net code="22" name="/SWDIO">
-      <node ref="U104" pin="23"/>
+    <net code="12" name="/SWDIO">
       <node ref="J107" pin="5"/>
+      <node ref="U104" pin="23"/>
     </net>
-    <net code="23" name="/ENC_B">
-      <node ref="U104" pin="3"/>
+    <net code="13" name="Net-(J103-Pad2)">
+      <node ref="J103" pin="2"/>
+      <node ref="R102" pin="2"/>
+      <node ref="Q101" pin="3"/>
+    </net>
+    <net code="14" name="Net-(J103-Pad3)">
+      <node ref="J103" pin="3"/>
+    </net>
+    <net code="15" name="+5V">
+      <node ref="C109" pin="1"/>
+      <node ref="L101" pin="2"/>
+      <node ref="R106" pin="1"/>
+      <node ref="U103" pin="2"/>
+      <node ref="J111" pin="1"/>
+      <node ref="J109" pin="14"/>
+      <node ref="R102" pin="1"/>
+      <node ref="C103" pin="1"/>
+      <node ref="C104" pin="1"/>
+      <node ref="C105" pin="1"/>
+      <node ref="J103" pin="1"/>
+      <node ref="C106" pin="1"/>
+    </net>
+    <net code="16" name="/Audio/dat">
+      <node ref="J104" pin="4"/>
+      <node ref="U302" pin="11"/>
+    </net>
+    <net code="17" name="Net-(J111-Pad2)">
+      <node ref="Q102" pin="3"/>
+      <node ref="J111" pin="2"/>
+    </net>
+    <net code="18" name="/Audio/mute+">
+      <node ref="R320" pin="2"/>
+      <node ref="R321" pin="2"/>
+      <node ref="J110" pin="1"/>
+      <node ref="R322" pin="2"/>
+      <node ref="R323" pin="2"/>
+    </net>
+    <net code="19" name="/Audio/mute-">
+      <node ref="U307" pin="2"/>
+      <node ref="J110" pin="2"/>
+      <node ref="U305" pin="2"/>
+      <node ref="U306" pin="2"/>
+      <node ref="U304" pin="2"/>
+    </net>
+    <net code="20" name="/Audio/dgnd">
+      <node ref="J104" pin="1"/>
+      <node ref="U302" pin="8"/>
+    </net>
+    <net code="21" name="/Audio/clk">
+      <node ref="U302" pin="9"/>
       <node ref="J104" pin="2"/>
     </net>
-    <net code="24" name="/ENC_A">
+    <net code="22" name="/Audio/load">
       <node ref="J104" pin="3"/>
-      <node ref="U104" pin="2"/>
+      <node ref="U302" pin="10"/>
     </net>
-    <net code="25" name="/LED">
-      <node ref="J108" pin="2"/>
-      <node ref="U104" pin="25"/>
-    </net>
-    <net code="26" name="Net-(J102-PadSH)">
-      <node ref="J102" pin="SH"/>
-    </net>
-    <net code="27" name="Net-(J102-Pad6)">
-      <node ref="J102" pin="6"/>
-    </net>
-    <net code="28" name="Net-(J102-Pad5)">
-      <node ref="J102" pin="5"/>
-    </net>
-    <net code="29" name="Net-(J102-Pad4)">
-      <node ref="J102" pin="4"/>
-    </net>
-    <net code="30" name="Net-(J102-Pad3)">
-      <node ref="J102" pin="3"/>
-    </net>
-    <net code="31" name="Net-(J101-Pad1)">
+    <net code="23" name="GND">
+      <node ref="U104" pin="32"/>
+      <node ref="U104" pin="16"/>
+      <node ref="Q101" pin="2"/>
+      <node ref="Q102" pin="2"/>
       <node ref="J101" pin="1"/>
-      <node ref="SW101" pin="2"/>
+      <node ref="U101" pin="3"/>
+      <node ref="J102" pin="1"/>
+      <node ref="U103" pin="3"/>
+      <node ref="C102" pin="2"/>
+      <node ref="J105" pin="1"/>
+      <node ref="C101" pin="2"/>
+      <node ref="R108" pin="1"/>
+      <node ref="C107" pin="2"/>
+      <node ref="R107" pin="2"/>
+      <node ref="C106" pin="2"/>
+      <node ref="C105" pin="2"/>
+      <node ref="C104" pin="2"/>
+      <node ref="U102" pin="2"/>
+      <node ref="C109" pin="2"/>
+      <node ref="C108" pin="2"/>
+      <node ref="J107" pin="1"/>
+      <node ref="J106" pin="1"/>
+      <node ref="J109" pin="13"/>
+      <node ref="D102" pin="2"/>
+      <node ref="R104" pin="1"/>
     </net>
-    <net code="32" name="/BTN_3">
-      <node ref="J105" pin="2"/>
-      <node ref="U104" pin="28"/>
+    <net code="24" name="/ENC_B">
+      <node ref="U104" pin="3"/>
+      <node ref="J106" pin="2"/>
     </net>
-    <net code="33" name="/BTN_2">
-      <node ref="J105" pin="3"/>
-      <node ref="U104" pin="27"/>
+    <net code="25" name="VCC">
+      <node ref="U102" pin="5"/>
+      <node ref="C101" pin="1"/>
+      <node ref="U102" pin="4"/>
+      <node ref="C102" pin="1"/>
+      <node ref="J101" pin="2"/>
     </net>
-    <net code="34" name="/BTN_1">
+    <net code="26" name="/mute">
+      <node ref="Q102" pin="1"/>
+      <node ref="U104" pin="22"/>
+      <node ref="R108" pin="2"/>
+    </net>
+    <net code="27" name="Net-(J108-Pad1)">
+      <node ref="J108" pin="1"/>
+    </net>
+    <net code="28" name="Net-(J109-Pad1)">
+      <node ref="J109" pin="1"/>
+    </net>
+    <net code="29" name="/display/K_B">
+      <node ref="Q205" pin="1"/>
+      <node ref="J108" pin="3"/>
+      <node ref="R205" pin="2"/>
+    </net>
+    <net code="30" name="/display/K_A">
+      <node ref="R202" pin="2"/>
+      <node ref="Q202" pin="1"/>
+      <node ref="J108" pin="5"/>
+    </net>
+    <net code="31" name="/BTN_3">
+      <node ref="U104" pin="31"/>
+      <node ref="J106" pin="4"/>
+    </net>
+    <net code="32" name="/display/A_COM1">
+      <node ref="Q201" pin="1"/>
+      <node ref="R201" pin="2"/>
+      <node ref="J108" pin="7"/>
+    </net>
+    <net code="33" name="/display/A_COM2">
+      <node ref="R207" pin="2"/>
+      <node ref="Q207" pin="1"/>
+      <node ref="J108" pin="9"/>
+    </net>
+    <net code="34" name="/5Vsw">
+      <node ref="U102" pin="6"/>
+      <node ref="D102" pin="1"/>
+      <node ref="L101" pin="1"/>
+    </net>
+    <net code="35" name="/LED">
+      <node ref="U104" pin="25"/>
+      <node ref="TP101" pin="1"/>
+    </net>
+    <net code="36" name="Net-(D101-Pad1)">
+      <node ref="U101" pin="1"/>
+      <node ref="D101" pin="1"/>
+      <node ref="R103" pin="1"/>
+    </net>
+    <net code="37" name="/vol_dat">
       <node ref="U104" pin="26"/>
       <node ref="J105" pin="4"/>
     </net>
-    <net code="35" name="Net-(J102-Pad7)">
-      <node ref="R102" pin="2"/>
-      <node ref="J102" pin="7"/>
+    <net code="38" name="/vol_clk">
+      <node ref="J105" pin="2"/>
+      <node ref="U104" pin="28"/>
     </net>
-    <net code="36" name="Net-(D101-Pad2)">
-      <node ref="J102" pin="8"/>
-      <node ref="U101" pin="2"/>
-      <node ref="D101" pin="2"/>
+    <net code="39" name="/vol_load">
+      <node ref="U104" pin="27"/>
+      <node ref="J105" pin="3"/>
     </net>
-    <net code="37" name="/power_sw">
-      <node ref="SW101" pin="3"/>
-      <node ref="U104" pin="22"/>
-    </net>
-    <net code="38" name="/amp_mute">
-      <node ref="U104" pin="21"/>
-      <node ref="Q201" pin="1"/>
-    </net>
-    <net code="39" name="Net-(D101-Pad1)">
-      <node ref="U101" pin="1"/>
-      <node ref="R102" pin="1"/>
-      <node ref="D101" pin="1"/>
-    </net>
-    <net code="40" name="/Audio/inR">
-      <node ref="C201" pin="2"/>
-      <node ref="J103" pin="R"/>
-    </net>
-    <net code="41" name="GNDA">
-      <node ref="R205" pin="2"/>
-      <node ref="C205" pin="2"/>
-      <node ref="C208" pin="2"/>
-      <node ref="C206" pin="1"/>
-      <node ref="U202" pin="14"/>
-      <node ref="U202" pin="1"/>
-      <node ref="C207" pin="1"/>
-      <node ref="C209" pin="2"/>
-      <node ref="U202" pin="6"/>
-      <node ref="U202" pin="5"/>
-      <node ref="U202" pin="3"/>
-      <node ref="U202" pin="19"/>
-      <node ref="C204" pin="2"/>
-      <node ref="U202" pin="16"/>
-      <node ref="C213" pin="1"/>
-      <node ref="C210" pin="1"/>
-      <node ref="R228" pin="1"/>
-      <node ref="R227" pin="1"/>
-      <node ref="C212" pin="2"/>
-      <node ref="D202" pin="1"/>
-      <node ref="U201" pin="2"/>
-      <node ref="C211" pin="1"/>
-      <node ref="J103" pin="S"/>
-      <node ref="R206" pin="1"/>
-      <node ref="J106" pin="S"/>
-      <node ref="D201" pin="2"/>
-    </net>
-    <net code="42" name="/Audio/outL">
-      <node ref="J106" pin="T"/>
-      <node ref="R229" pin="1"/>
-    </net>
-    <net code="43" name="/Audio/outR">
-      <node ref="R230" pin="1"/>
-      <node ref="J106" pin="R"/>
-    </net>
-    <net code="44" name="/Audio/inL">
-      <node ref="C202" pin="2"/>
-      <node ref="J103" pin="T"/>
-    </net>
-    <net code="45" name="/ext_MISO">
-      <node ref="R104" pin="1"/>
-      <node ref="U101" pin="4"/>
-      <node ref="U104" pin="20"/>
-    </net>
-    <net code="46" name="/vol_dat">
-      <node ref="U202" pin="11"/>
-      <node ref="U104" pin="29"/>
-    </net>
-    <net code="47" name="/vol_load">
-      <node ref="U104" pin="30"/>
-      <node ref="U202" pin="10"/>
-    </net>
-    <net code="48" name="/vol_clk">
-      <node ref="U104" pin="31"/>
-      <node ref="U202" pin="9"/>
-    </net>
-    <net code="49" name="/ext_MOSI">
-      <node ref="Q101" pin="1"/>
-      <node ref="R103" pin="2"/>
-      <node ref="U104" pin="19"/>
-    </net>
-    <net code="50" name="Net-(R220-Pad1)">
-      <node ref="R220" pin="1"/>
-      <node ref="U205" pin="1"/>
-    </net>
-    <net code="51" name="Net-(Q216-Pad1)">
-      <node ref="Q217" pin="1"/>
-      <node ref="U205" pin="4"/>
-      <node ref="Q216" pin="1"/>
-      <node ref="U204" pin="3"/>
-    </net>
-    <net code="52" name="Net-(Q216-Pad2)">
-      <node ref="R224" pin="1"/>
-      <node ref="Q216" pin="2"/>
-      <node ref="R223" pin="1"/>
-      <node ref="Q217" pin="2"/>
-    </net>
-    <net code="53" name="VDDA">
-      <node ref="C207" pin="2"/>
-      <node ref="C212" pin="1"/>
-      <node ref="C208" pin="1"/>
-      <node ref="Q206" pin="3"/>
-      <node ref="R213" pin="1"/>
-      <node ref="U203" pin="8"/>
-      <node ref="U202" pin="15"/>
-      <node ref="U202" pin="13"/>
-      <node ref="Q212" pin="2"/>
-      <node ref="Q214" pin="2"/>
+    <net code="40" name="GND_1">
       <node ref="R211" pin="1"/>
-    </net>
-    <net code="54" name="Net-(R223-Pad2)">
-      <node ref="U204" pin="4"/>
-      <node ref="R223" pin="2"/>
-    </net>
-    <net code="55" name="Net-(R224-Pad2)">
-      <node ref="U205" pin="6"/>
-      <node ref="R224" pin="2"/>
-    </net>
-    <net code="56" name="Net-(R219-Pad1)">
-      <node ref="U204" pin="1"/>
-      <node ref="R219" pin="1"/>
-    </net>
-    <net code="57" name="Net-(Q217-Pad7)">
-      <node ref="R227" pin="2"/>
-      <node ref="R229" pin="2"/>
-      <node ref="Q217" pin="8"/>
-      <node ref="Q217" pin="7"/>
-    </net>
-    <net code="58" name="Net-(Q202-Pad1)">
-      <node ref="Q204" pin="1"/>
-      <node ref="Q202" pin="1"/>
-      <node ref="R203" pin="2"/>
-      <node ref="Q202" pin="2"/>
-    </net>
-    <net code="59" name="Net-(C210-Pad2)">
-      <node ref="R207" pin="2"/>
-      <node ref="Q206" pin="1"/>
-      <node ref="C210" pin="2"/>
-      <node ref="D201" pin="1"/>
-    </net>
-    <net code="60" name="Net-(C211-Pad2)">
-      <node ref="C211" pin="2"/>
-      <node ref="D202" pin="2"/>
-      <node ref="Q207" pin="1"/>
-      <node ref="R208" pin="2"/>
-    </net>
-    <net code="61" name="Net-(R226-Pad2)">
-      <node ref="U207" pin="6"/>
-      <node ref="R226" pin="2"/>
-    </net>
-    <net code="62" name="Net-(R222-Pad1)">
-      <node ref="R222" pin="1"/>
-      <node ref="U207" pin="1"/>
-    </net>
-    <net code="63" name="Net-(R225-Pad2)">
-      <node ref="U206" pin="4"/>
-      <node ref="R225" pin="2"/>
-    </net>
-    <net code="64" name="/Audio/^mute">
-      <node ref="Q201" pin="3"/>
-      <node ref="U204" pin="2"/>
-      <node ref="U207" pin="2"/>
-      <node ref="U205" pin="2"/>
-      <node ref="U206" pin="2"/>
-    </net>
-    <net code="65" name="Net-(C203-Pad1)">
-      <node ref="U201" pin="3"/>
-      <node ref="C203" pin="1"/>
-      <node ref="R201" pin="2"/>
-      <node ref="U201" pin="5"/>
-      <node ref="R202" pin="1"/>
-    </net>
-    <net code="66" name="Net-(U201-Pad6)">
-      <node ref="U201" pin="7"/>
-      <node ref="U201" pin="6"/>
-    </net>
-    <net code="67" name="Net-(Q202-Pad3)">
-      <node ref="U201" pin="1"/>
-      <node ref="Q203" pin="3"/>
-      <node ref="Q202" pin="3"/>
-    </net>
-    <net code="68" name="Net-(Q216-Pad3)">
-      <node ref="Q216" pin="3"/>
-      <node ref="Q217" pin="3"/>
-      <node ref="U207" pin="4"/>
-      <node ref="U206" pin="3"/>
-    </net>
-    <net code="69" name="Net-(R221-Pad1)">
-      <node ref="R221" pin="1"/>
-      <node ref="U206" pin="1"/>
-    </net>
-    <net code="70" name="Net-(Q217-Pad5)">
-      <node ref="R228" pin="2"/>
-      <node ref="R230" pin="2"/>
-      <node ref="Q217" pin="5"/>
-      <node ref="Q217" pin="6"/>
-    </net>
-    <net code="71" name="Net-(Q216-Pad4)">
-      <node ref="Q217" pin="4"/>
-      <node ref="R226" pin="1"/>
-      <node ref="R225" pin="1"/>
-      <node ref="Q216" pin="4"/>
-    </net>
-    <net code="72" name="Net-(Q212-Pad3)">
-      <node ref="R215" pin="1"/>
-      <node ref="Q212" pin="3"/>
-    </net>
-    <net code="73" name="Net-(Q213-Pad3)">
-      <node ref="Q213" pin="3"/>
-      <node ref="R216" pin="2"/>
-    </net>
-    <net code="74" name="/Audio/in1">
-      <node ref="U202" pin="4"/>
-      <node ref="C202" pin="1"/>
-    </net>
-    <net code="75" name="Net-(U202-Pad12)">
-      <node ref="U202" pin="12"/>
-    </net>
-    <net code="76" name="Net-(Q208-Pad3)">
-      <node ref="Q208" pin="3"/>
-      <node ref="R209" pin="1"/>
-      <node ref="Q209" pin="3"/>
-    </net>
-    <net code="77" name="/Audio/in2">
-      <node ref="U202" pin="20"/>
-      <node ref="C201" pin="1"/>
-    </net>
-    <net code="78" name="Net-(Q215-Pad3)">
-      <node ref="Q215" pin="3"/>
-      <node ref="R218" pin="2"/>
-    </net>
-    <net code="79" name="Net-(Q211-Pad1)">
-      <node ref="Q211" pin="1"/>
-      <node ref="Q211" pin="2"/>
-      <node ref="Q215" pin="1"/>
-      <node ref="R214" pin="1"/>
-    </net>
-    <net code="80" name="Net-(Q210-Pad3)">
+      <node ref="R206" pin="1"/>
+      <node ref="Q210" pin="2"/>
       <node ref="R210" pin="1"/>
-      <node ref="Q211" pin="3"/>
-      <node ref="Q210" pin="3"/>
-    </net>
-    <net code="81" name="Net-(R210-Pad2)">
-      <node ref="R210" pin="2"/>
-      <node ref="U203" pin="7"/>
-    </net>
-    <net code="82" name="Net-(Q204-Pad3)">
-      <node ref="Q204" pin="3"/>
+      <node ref="Q214" pin="2"/>
+      <node ref="R209" pin="1"/>
+      <node ref="Q209" pin="2"/>
       <node ref="R205" pin="1"/>
-    </net>
-    <net code="83" name="Net-(Q203-Pad1)">
-      <node ref="R204" pin="1"/>
+      <node ref="Q206" pin="2"/>
+      <node ref="R203" pin="1"/>
       <node ref="Q203" pin="2"/>
-      <node ref="Q203" pin="1"/>
-      <node ref="Q205" pin="1"/>
+      <node ref="Q213" pin="2"/>
+      <node ref="R213" pin="1"/>
+      <node ref="Q205" pin="2"/>
+      <node ref="R214" pin="1"/>
+      <node ref="R201" pin="1"/>
+      <node ref="R202" pin="1"/>
+      <node ref="Q207" pin="2"/>
+      <node ref="R207" pin="1"/>
+      <node ref="Q202" pin="2"/>
+      <node ref="Q201" pin="2"/>
+      <node ref="Q211" pin="2"/>
+      <node ref="J108" pin="13"/>
     </net>
-    <net code="84" name="Net-(Q205-Pad3)">
-      <node ref="Q205" pin="3"/>
+    <net code="41" name="/display/K_C">
+      <node ref="J108" pin="2"/>
+      <node ref="Q209" pin="1"/>
+      <node ref="R209" pin="2"/>
+    </net>
+    <net code="42" name="/display/A_COM3">
+      <node ref="R211" pin="2"/>
+      <node ref="J108" pin="11"/>
+      <node ref="Q211" pin="1"/>
+    </net>
+    <net code="43" name="/display/K_F">
+      <node ref="J108" pin="8"/>
+      <node ref="Q206" pin="1"/>
       <node ref="R206" pin="2"/>
     </net>
-    <net code="85" name="Net-(R209-Pad2)">
-      <node ref="R209" pin="2"/>
-      <node ref="U203" pin="1"/>
+    <net code="44" name="/display/K_E">
+      <node ref="R203" pin="2"/>
+      <node ref="Q203" pin="1"/>
+      <node ref="J108" pin="6"/>
     </net>
-    <net code="86" name="/Audio/out1">
-      <node ref="R216" pin="1"/>
-      <node ref="U203" pin="2"/>
-      <node ref="R215" pin="2"/>
-      <node ref="Q216" pin="7"/>
-      <node ref="Q216" pin="8"/>
-    </net>
-    <net code="87" name="/Audio/volout1">
-      <node ref="U202" pin="2"/>
-      <node ref="U203" pin="3"/>
-    </net>
-    <net code="88" name="/Audio/volout2">
-      <node ref="U203" pin="5"/>
-      <node ref="U202" pin="17"/>
-    </net>
-    <net code="89" name="/Audio/out2">
-      <node ref="U203" pin="6"/>
-      <node ref="Q216" pin="5"/>
-      <node ref="R218" pin="1"/>
-      <node ref="Q216" pin="6"/>
-      <node ref="R217" pin="2"/>
-    </net>
-    <net code="90" name="VSSA">
-      <node ref="C209" pin="1"/>
-      <node ref="C213" pin="2"/>
-      <node ref="U203" pin="4"/>
-      <node ref="Q207" pin="3"/>
+    <net code="45" name="/display/K_DP">
       <node ref="R214" pin="2"/>
-      <node ref="Q215" pin="2"/>
-      <node ref="R212" pin="2"/>
-      <node ref="U202" pin="18"/>
-      <node ref="C204" pin="1"/>
-      <node ref="U202" pin="7"/>
-      <node ref="Q213" pin="2"/>
-    </net>
-    <net code="91" name="Net-(Q210-Pad1)">
+      <node ref="J108" pin="12"/>
       <node ref="Q214" pin="1"/>
+    </net>
+    <net code="46" name="/display/K_G">
+      <node ref="J108" pin="10"/>
       <node ref="Q210" pin="1"/>
-      <node ref="Q210" pin="2"/>
+      <node ref="R210" pin="2"/>
+    </net>
+    <net code="47" name="/display/K_D">
+      <node ref="Q213" pin="1"/>
+      <node ref="J108" pin="4"/>
       <node ref="R213" pin="2"/>
     </net>
-    <net code="92" name="Net-(Q214-Pad3)">
-      <node ref="Q214" pin="3"/>
-      <node ref="R217" pin="1"/>
+    <net code="48" name="Net-(J103-Pad7)">
+      <node ref="R103" pin="2"/>
+      <node ref="J103" pin="7"/>
     </net>
-    <net code="93" name="Net-(Q209-Pad1)">
-      <node ref="R212" pin="1"/>
-      <node ref="Q209" pin="2"/>
-      <node ref="Q209" pin="1"/>
-      <node ref="Q213" pin="1"/>
-    </net>
-    <net code="94" name="Net-(Q208-Pad1)">
-      <node ref="R211" pin="2"/>
-      <node ref="Q212" pin="1"/>
-      <node ref="Q208" pin="1"/>
+    <net code="49" name="+5V_1">
+      <node ref="R204" pin="2"/>
+      <node ref="Q204" pin="2"/>
+      <node ref="R208" pin="2"/>
+      <node ref="R212" pin="2"/>
+      <node ref="Q212" pin="2"/>
+      <node ref="J108" pin="14"/>
       <node ref="Q208" pin="2"/>
     </net>
-    <net code="95" name="/display/c">
-      <node ref="R317" pin="2"/>
-      <node ref="Q309" pin="3"/>
+    <net code="50" name="/SEG_LED_K_A">
+      <node ref="J109" pin="5"/>
+      <node ref="U104" pin="6"/>
     </net>
-    <net code="96" name="/display/e">
-      <node ref="R319" pin="2"/>
-      <node ref="Q303" pin="3"/>
+    <net code="51" name="/ext_MISO">
+      <node ref="U101" pin="4"/>
+      <node ref="U104" pin="20"/>
+      <node ref="R105" pin="1"/>
     </net>
-    <net code="97" name="/display/d">
-      <node ref="Q313" pin="3"/>
-      <node ref="R318" pin="2"/>
+    <net code="52" name="/SEG_LED_K_D">
+      <node ref="J109" pin="4"/>
+      <node ref="U104" pin="9"/>
     </net>
-    <net code="98" name="/display/a">
+    <net code="53" name="+3V3">
+      <node ref="J107" pin="2"/>
+      <node ref="C108" pin="1"/>
+      <node ref="U104" pin="17"/>
+      <node ref="U104" pin="5"/>
+      <node ref="U104" pin="1"/>
+      <node ref="C107" pin="1"/>
+      <node ref="R105" pin="2"/>
+      <node ref="U103" pin="1"/>
+    </net>
+    <net code="54" name="/SEG_LED_K_B">
+      <node ref="U104" pin="7"/>
+      <node ref="J109" pin="3"/>
+    </net>
+    <net code="55" name="/SEG_LED_K_C">
+      <node ref="U104" pin="8"/>
+      <node ref="J109" pin="2"/>
+    </net>
+    <net code="56" name="/SEG_LED_K_E">
+      <node ref="U104" pin="10"/>
+      <node ref="J109" pin="6"/>
+    </net>
+    <net code="57" name="/SEG_LED_K_F">
+      <node ref="J109" pin="8"/>
+      <node ref="U104" pin="11"/>
+    </net>
+    <net code="58" name="/SEG_LED_K_DP">
+      <node ref="U104" pin="13"/>
+      <node ref="J109" pin="12"/>
+    </net>
+    <net code="59" name="/SEG_LED_A_1">
+      <node ref="J109" pin="7"/>
+      <node ref="U104" pin="14"/>
+    </net>
+    <net code="60" name="/SEG_LED_A_2">
+      <node ref="J109" pin="9"/>
+      <node ref="U104" pin="15"/>
+    </net>
+    <net code="61" name="/SEG_LED_A_3">
+      <node ref="J109" pin="11"/>
+      <node ref="U104" pin="18"/>
+    </net>
+    <net code="62" name="/SEG_LED_K_G">
+      <node ref="U104" pin="12"/>
+      <node ref="J109" pin="10"/>
+    </net>
+    <net code="63" name="Net-(C103-Pad2)">
+      <node ref="R106" pin="2"/>
+      <node ref="R107" pin="1"/>
+      <node ref="C103" pin="2"/>
+      <node ref="U102" pin="3"/>
+    </net>
+    <net code="64" name="Net-(U102-Pad1)">
+      <node ref="U102" pin="1"/>
+    </net>
+    <net code="65" name="/ext_MOSI">
+      <node ref="Q101" pin="1"/>
+      <node ref="U104" pin="19"/>
+      <node ref="R104" pin="2"/>
+    </net>
+    <net code="66" name="VSSA">
+      <node ref="C311" pin="2"/>
+      <node ref="C301" pin="2"/>
+      <node ref="U302" pin="7"/>
+      <node ref="J301" pin="1"/>
+      <node ref="U302" pin="18"/>
+      <node ref="C306" pin="2"/>
+      <node ref="R302" pin="2"/>
+      <node ref="C303" pin="1"/>
       <node ref="R315" pin="2"/>
-      <node ref="Q302" pin="3"/>
+      <node ref="R313" pin="2"/>
+      <node ref="U303" pin="4"/>
+      <node ref="C309" pin="1"/>
+      <node ref="Q310" pin="2"/>
+      <node ref="Q312" pin="2"/>
     </net>
-    <net code="99" name="/display/b">
-      <node ref="R316" pin="2"/>
-      <node ref="Q305" pin="3"/>
-    </net>
-    <net code="100" name="Net-(Q311-Pad3)">
-      <node ref="Q311" pin="3"/>
-      <node ref="Q312" pin="1"/>
-      <node ref="R312" pin="1"/>
-    </net>
-    <net code="101" name="/display/3">
-      <node ref="LED303" pin="8"/>
-      <node ref="LED303" pin="3"/>
+    <net code="67" name="Net-(Q312-Pad3)">
+      <node ref="R319" pin="2"/>
       <node ref="Q312" pin="3"/>
     </net>
-    <net code="102" name="/display/2">
+    <net code="68" name="Net-(Q307-Pad3)">
+      <node ref="R310" pin="1"/>
       <node ref="Q308" pin="3"/>
-      <node ref="LED302" pin="8"/>
-      <node ref="LED302" pin="3"/>
-    </net>
-    <net code="103" name="/display/1">
-      <node ref="LED301" pin="8"/>
-      <node ref="LED301" pin="3"/>
-      <node ref="Q304" pin="3"/>
-    </net>
-    <net code="104" name="/display/f">
-      <node ref="R320" pin="2"/>
-      <node ref="Q306" pin="3"/>
-    </net>
-    <net code="105" name="/display/dp">
-      <node ref="Q314" pin="3"/>
-      <node ref="R322" pin="2"/>
-    </net>
-    <net code="106" name="/display/g">
-      <node ref="Q310" pin="3"/>
-      <node ref="R321" pin="2"/>
-    </net>
-    <net code="107" name="Net-(LED301-Pad6)">
-      <node ref="LED302" pin="6"/>
-      <node ref="LED303" pin="6"/>
-      <node ref="R316" pin="1"/>
-      <node ref="LED301" pin="6"/>
-    </net>
-    <net code="108" name="Net-(LED301-Pad7)">
-      <node ref="LED301" pin="7"/>
-      <node ref="LED302" pin="7"/>
-      <node ref="LED303" pin="7"/>
-      <node ref="R315" pin="1"/>
-    </net>
-    <net code="109" name="Net-(LED301-Pad9)">
-      <node ref="LED303" pin="9"/>
-      <node ref="LED301" pin="9"/>
-      <node ref="LED302" pin="9"/>
-      <node ref="R320" pin="1"/>
-    </net>
-    <net code="110" name="Net-(LED301-Pad1)">
-      <node ref="LED302" pin="1"/>
-      <node ref="LED301" pin="1"/>
-      <node ref="R319" pin="1"/>
-      <node ref="LED303" pin="1"/>
-    </net>
-    <net code="111" name="Net-(LED301-Pad2)">
-      <node ref="LED302" pin="2"/>
-      <node ref="LED303" pin="2"/>
-      <node ref="LED301" pin="2"/>
-      <node ref="R318" pin="1"/>
-    </net>
-    <net code="112" name="Net-(LED301-Pad4)">
-      <node ref="LED301" pin="4"/>
-      <node ref="R317" pin="1"/>
-      <node ref="LED302" pin="4"/>
-      <node ref="LED303" pin="4"/>
-    </net>
-    <net code="113" name="Net-(LED301-Pad5)">
-      <node ref="LED301" pin="5"/>
-      <node ref="LED303" pin="5"/>
-      <node ref="LED302" pin="5"/>
-      <node ref="R322" pin="1"/>
-    </net>
-    <net code="114" name="Net-(LED301-Pad10)">
-      <node ref="LED302" pin="10"/>
-      <node ref="LED303" pin="10"/>
-      <node ref="LED301" pin="10"/>
-      <node ref="R321" pin="1"/>
-    </net>
-    <net code="115" name="Net-(Q307-Pad3)">
-      <node ref="Q308" pin="1"/>
-      <node ref="R308" pin="1"/>
       <node ref="Q307" pin="3"/>
     </net>
-    <net code="116" name="Net-(Q301-Pad3)">
-      <node ref="R304" pin="1"/>
-      <node ref="Q304" pin="1"/>
-      <node ref="Q301" pin="3"/>
+    <net code="69" name="Net-(Q308-Pad1)">
+      <node ref="Q308" pin="2"/>
+      <node ref="Q308" pin="1"/>
+      <node ref="R315" pin="1"/>
+      <node ref="Q312" pin="1"/>
+    </net>
+    <net code="70" name="VDDA">
+      <node ref="C310" pin="1"/>
+      <node ref="U302" pin="15"/>
+      <node ref="U302" pin="13"/>
+      <node ref="Q311" pin="2"/>
+      <node ref="R314" pin="1"/>
+      <node ref="J301" pin="2"/>
+      <node ref="R301" pin="1"/>
+      <node ref="U303" pin="8"/>
+      <node ref="Q309" pin="2"/>
+      <node ref="R312" pin="1"/>
+      <node ref="C302" pin="1"/>
+      <node ref="C301" pin="1"/>
+      <node ref="C307" pin="2"/>
+      <node ref="C308" pin="1"/>
+    </net>
+    <net code="71" name="Net-(Q307-Pad1)">
+      <node ref="R314" pin="2"/>
+      <node ref="Q311" pin="1"/>
+      <node ref="Q307" pin="2"/>
+      <node ref="Q307" pin="1"/>
+    </net>
+    <net code="72" name="Net-(Q311-Pad3)">
+      <node ref="Q311" pin="3"/>
+      <node ref="R318" pin="1"/>
+    </net>
+    <net code="73" name="Net-(Q313-Pad5)">
+      <node ref="R328" pin="2"/>
+      <node ref="R330" pin="2"/>
+      <node ref="Q313" pin="5"/>
+      <node ref="Q313" pin="6"/>
+    </net>
+    <net code="74" name="GNDA">
+      <node ref="U302" pin="1"/>
+      <node ref="U302" pin="14"/>
+      <node ref="U302" pin="16"/>
+      <node ref="U302" pin="19"/>
+      <node ref="U302" pin="3"/>
+      <node ref="U302" pin="5"/>
+      <node ref="U302" pin="6"/>
+      <node ref="C309" pin="2"/>
+      <node ref="C307" pin="1"/>
+      <node ref="C308" pin="2"/>
+      <node ref="C311" pin="1"/>
+      <node ref="J303" pin="2"/>
+      <node ref="J302" pin="2"/>
+      <node ref="C310" pin="2"/>
+      <node ref="R329" pin="1"/>
+      <node ref="R301" pin="2"/>
+      <node ref="R302" pin="1"/>
+      <node ref="C302" pin="2"/>
+      <node ref="C303" pin="2"/>
+      <node ref="C306" pin="1"/>
+      <node ref="R328" pin="1"/>
+    </net>
+    <net code="75" name="Net-(R325-Pad2)">
+      <node ref="U305" pin="6"/>
+      <node ref="R325" pin="2"/>
+    </net>
+    <net code="76" name="Net-(R321-Pad1)">
+      <node ref="R321" pin="1"/>
+      <node ref="U305" pin="1"/>
+    </net>
+    <net code="77" name="Net-(Q313-Pad1)">
+      <node ref="U304" pin="3"/>
+      <node ref="Q313" pin="3"/>
+      <node ref="U305" pin="4"/>
+      <node ref="Q313" pin="1"/>
+    </net>
+    <net code="78" name="/Audio/in1">
+      <node ref="U302" pin="4"/>
+      <node ref="C305" pin="1"/>
+    </net>
+    <net code="79" name="Net-(Q305-Pad3)">
+      <node ref="R308" pin="1"/>
+      <node ref="Q306" pin="3"/>
+      <node ref="Q305" pin="3"/>
+    </net>
+    <net code="80" name="Net-(Q305-Pad1)">
+      <node ref="Q305" pin="1"/>
+      <node ref="Q305" pin="2"/>
+      <node ref="R312" pin="2"/>
+      <node ref="Q309" pin="1"/>
+    </net>
+    <net code="81" name="Net-(Q309-Pad3)">
+      <node ref="Q309" pin="3"/>
+      <node ref="R316" pin="1"/>
+    </net>
+    <net code="82" name="Net-(Q310-Pad3)">
+      <node ref="Q310" pin="3"/>
+      <node ref="R317" pin="2"/>
+    </net>
+    <net code="83" name="Net-(Q306-Pad1)">
+      <node ref="Q306" pin="1"/>
+      <node ref="Q306" pin="2"/>
+      <node ref="Q310" pin="1"/>
+      <node ref="R313" pin="1"/>
+    </net>
+    <net code="84" name="/Audio/volout2">
+      <node ref="U302" pin="17"/>
+      <node ref="U303" pin="3"/>
+    </net>
+    <net code="85" name="/Audio/out1">
+      <node ref="J303" pin="1"/>
+      <node ref="R330" pin="1"/>
+    </net>
+    <net code="86" name="Net-(C304-Pad2)">
+      <node ref="J302" pin="3"/>
+      <node ref="C304" pin="2"/>
+    </net>
+    <net code="87" name="Net-(C305-Pad2)">
+      <node ref="C305" pin="2"/>
+      <node ref="J302" pin="1"/>
+    </net>
+    <net code="88" name="Net-(C313-Pad1)">
+      <node ref="C313" pin="1"/>
+      <node ref="R310" pin="2"/>
+      <node ref="U303" pin="1"/>
+    </net>
+    <net code="89" name="Net-(C313-Pad2)">
+      <node ref="C313" pin="2"/>
+      <node ref="U303" pin="2"/>
+      <node ref="R311" pin="2"/>
+    </net>
+    <net code="90" name="Net-(C312-Pad1)">
+      <node ref="C312" pin="1"/>
+      <node ref="R308" pin="2"/>
+      <node ref="U303" pin="7"/>
+    </net>
+    <net code="91" name="Net-(C312-Pad2)">
+      <node ref="U303" pin="6"/>
+      <node ref="R309" pin="2"/>
+      <node ref="C312" pin="2"/>
+    </net>
+    <net code="92" name="/Audio/fb1">
+      <node ref="Q313" pin="7"/>
+      <node ref="R309" pin="1"/>
+      <node ref="R316" pin="2"/>
+      <node ref="R317" pin="1"/>
+      <node ref="Q313" pin="8"/>
+    </net>
+    <net code="93" name="Net-(Q314-Pad2)">
+      <node ref="Q314" pin="4"/>
+      <node ref="Q314" pin="2"/>
+      <node ref="R326" pin="1"/>
+      <node ref="R327" pin="1"/>
+    </net>
+    <net code="94" name="/Audio/fb2">
+      <node ref="Q314" pin="6"/>
+      <node ref="R318" pin="2"/>
+      <node ref="Q314" pin="5"/>
+      <node ref="R319" pin="1"/>
+      <node ref="R311" pin="1"/>
+    </net>
+    <net code="95" name="Net-(R320-Pad1)">
+      <node ref="R320" pin="1"/>
+      <node ref="U304" pin="1"/>
+    </net>
+    <net code="96" name="Net-(R324-Pad2)">
+      <node ref="R324" pin="2"/>
+      <node ref="U304" pin="4"/>
+    </net>
+    <net code="97" name="Net-(Q313-Pad2)">
+      <node ref="Q313" pin="4"/>
+      <node ref="Q313" pin="2"/>
+      <node ref="R324" pin="1"/>
+      <node ref="R325" pin="1"/>
+    </net>
+    <net code="98" name="/Audio/out2">
+      <node ref="R331" pin="1"/>
+      <node ref="J303" pin="3"/>
+    </net>
+    <net code="99" name="Net-(Q314-Pad7)">
+      <node ref="R331" pin="2"/>
+      <node ref="Q314" pin="8"/>
+      <node ref="Q314" pin="7"/>
+      <node ref="R329" pin="2"/>
+    </net>
+    <net code="100" name="Net-(R322-Pad1)">
+      <node ref="R322" pin="1"/>
+      <node ref="U306" pin="1"/>
+    </net>
+    <net code="101" name="Net-(R326-Pad2)">
+      <node ref="R326" pin="2"/>
+      <node ref="U306" pin="4"/>
+    </net>
+    <net code="102" name="Net-(R323-Pad1)">
+      <node ref="U307" pin="1"/>
+      <node ref="R323" pin="1"/>
+    </net>
+    <net code="103" name="Net-(Q314-Pad1)">
+      <node ref="U306" pin="3"/>
+      <node ref="Q314" pin="1"/>
+      <node ref="U307" pin="4"/>
+      <node ref="Q314" pin="3"/>
+    </net>
+    <net code="104" name="Net-(R327-Pad2)">
+      <node ref="R327" pin="2"/>
+      <node ref="U307" pin="6"/>
+    </net>
+    <net code="105" name="Net-(U302-Pad12)">
+      <node ref="U302" pin="12"/>
+    </net>
+    <net code="106" name="/Audio/volout1">
+      <node ref="U302" pin="2"/>
+      <node ref="U303" pin="5"/>
+    </net>
+    <net code="107" name="/Audio/in2">
+      <node ref="U302" pin="20"/>
+      <node ref="C304" pin="1"/>
+    </net>
+    <net code="108" name="Net-(Q201-Pad3)">
+      <node ref="R204" pin="1"/>
+      <node ref="Q201" pin="3"/>
+      <node ref="Q204" pin="1"/>
+    </net>
+    <net code="109" name="/display/a">
+      <node ref="R215" pin="2"/>
+      <node ref="Q202" pin="3"/>
+    </net>
+    <net code="110" name="/display/b">
+      <node ref="R216" pin="2"/>
+      <node ref="Q205" pin="3"/>
+    </net>
+    <net code="111" name="/display/c">
+      <node ref="Q209" pin="3"/>
+      <node ref="R217" pin="2"/>
+    </net>
+    <net code="112" name="/display/d">
+      <node ref="R218" pin="2"/>
+      <node ref="Q213" pin="3"/>
+    </net>
+    <net code="113" name="Net-(Q207-Pad3)">
+      <node ref="Q207" pin="3"/>
+      <node ref="R208" pin="1"/>
+      <node ref="Q208" pin="1"/>
+    </net>
+    <net code="114" name="/display/f">
+      <node ref="Q206" pin="3"/>
+      <node ref="R220" pin="2"/>
+    </net>
+    <net code="115" name="/display/g">
+      <node ref="Q210" pin="3"/>
+      <node ref="R221" pin="2"/>
+    </net>
+    <net code="116" name="/display/dp">
+      <node ref="Q214" pin="3"/>
+      <node ref="R222" pin="2"/>
+    </net>
+    <net code="117" name="/display/e">
+      <node ref="R219" pin="2"/>
+      <node ref="Q203" pin="3"/>
+    </net>
+    <net code="118" name="/display/2">
+      <node ref="LED202" pin="8"/>
+      <node ref="Q208" pin="3"/>
+      <node ref="LED202" pin="3"/>
+    </net>
+    <net code="119" name="/display/3">
+      <node ref="Q212" pin="3"/>
+      <node ref="LED203" pin="8"/>
+      <node ref="LED203" pin="3"/>
+    </net>
+    <net code="120" name="Net-(LED201-Pad4)">
+      <node ref="R217" pin="1"/>
+      <node ref="LED203" pin="4"/>
+      <node ref="LED201" pin="4"/>
+      <node ref="LED202" pin="4"/>
+    </net>
+    <net code="121" name="Net-(LED201-Pad5)">
+      <node ref="LED203" pin="5"/>
+      <node ref="R222" pin="1"/>
+      <node ref="LED201" pin="5"/>
+      <node ref="LED202" pin="5"/>
+    </net>
+    <net code="122" name="Net-(LED201-Pad7)">
+      <node ref="R215" pin="1"/>
+      <node ref="LED201" pin="7"/>
+      <node ref="LED202" pin="7"/>
+      <node ref="LED203" pin="7"/>
+    </net>
+    <net code="123" name="Net-(LED201-Pad9)">
+      <node ref="R220" pin="1"/>
+      <node ref="LED202" pin="9"/>
+      <node ref="LED201" pin="9"/>
+      <node ref="LED203" pin="9"/>
+    </net>
+    <net code="124" name="/display/1">
+      <node ref="Q204" pin="3"/>
+      <node ref="LED201" pin="3"/>
+      <node ref="LED201" pin="8"/>
+    </net>
+    <net code="125" name="Net-(LED201-Pad1)">
+      <node ref="LED202" pin="1"/>
+      <node ref="R219" pin="1"/>
+      <node ref="LED201" pin="1"/>
+      <node ref="LED203" pin="1"/>
+    </net>
+    <net code="126" name="Net-(LED201-Pad10)">
+      <node ref="LED202" pin="10"/>
+      <node ref="LED201" pin="10"/>
+      <node ref="LED203" pin="10"/>
+      <node ref="R221" pin="1"/>
+    </net>
+    <net code="127" name="Net-(LED201-Pad2)">
+      <node ref="R218" pin="1"/>
+      <node ref="LED201" pin="2"/>
+      <node ref="LED203" pin="2"/>
+      <node ref="LED202" pin="2"/>
+    </net>
+    <net code="128" name="Net-(LED201-Pad6)">
+      <node ref="LED203" pin="6"/>
+      <node ref="LED201" pin="6"/>
+      <node ref="LED202" pin="6"/>
+      <node ref="R216" pin="1"/>
+    </net>
+    <net code="129" name="Net-(Q211-Pad3)">
+      <node ref="Q212" pin="1"/>
+      <node ref="R212" pin="1"/>
+      <node ref="Q211" pin="3"/>
     </net>
   </nets>
 </export>
